@@ -2,8 +2,15 @@
 const app = Vue.createApp({
     data() {
         return {
-            courseGoal: "course"
+            courseGoal: "course",
+            linkRef: "https://vuejs.org/"
         };
+    },
+    methods: {
+        setGoal() {
+            const randomNb = Math.random();
+            this.courseGoal =  (randomNb > 0.5) ? 'learn Vue' : 'master Vue';
+        },
     }
 });
 

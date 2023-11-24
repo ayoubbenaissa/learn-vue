@@ -76,3 +76,7 @@ header {
   border-color: #ec3169;
   box-shadow: 1px 1px 4px #00000042;
 }
+
+.btn {
+  cursor: pointer;
+}

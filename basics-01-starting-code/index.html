@@ -19,6 +19,8 @@
     <section id="user-goal">
       <h2>My Course Goal</h2>
       <p>{{courseGoal}}</p>
+      <p>Leanr more about <a v-bind:href="linkRef" target="_blank">VueJs</a></p>
+      <button v-on:click="setGoal" class="btn">change course</button>
     </section>
   </body>
 </html>
